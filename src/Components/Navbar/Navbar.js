@@ -1,7 +1,6 @@
 import React, { useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Link } from 'react-router-dom';
 
 import {
   Nav,
@@ -15,10 +14,12 @@ import {
   NavLinks,
   A
 } from './Navbar.elements';
-/*
+/* <NavItem>
+              
 <NavLinks to='/Contact' onClick={closeMobileMenu}>
                 Contact
                 </NavLinks>
+    </NavItem>            
 */
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -51,9 +52,7 @@ function Navbar() {
               <NavItem>
                 <A target="_blank" href="https://github.com/AnthonyHackney888"><NavIcon2/>Github</A>
               </NavItem>
-              <NavItem>
-                
-              </NavItem>
+             
               <NavItem>
                 <NavLinks to='/About' onClick={closeMobileMenu}>
                 About
