@@ -45,7 +45,7 @@ function Footer() {
         </FooterLinksContainer>
         <SocialMedia>
             <SocialMediaWrapper>
-                <SocialLogo to="/">
+                <SocialLogo to="/ReactWebsiteRepo">
                     <SocialIcon/>
                     AHBCODE
                 </SocialLogo>

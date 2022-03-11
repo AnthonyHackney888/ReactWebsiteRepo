@@ -16,7 +16,7 @@ function App() {
       <Scroll/>
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<Home/>} />
+        <Route path='/ReactWebsiteRepo' exact element={<Home/>} />
         
         <Route path='/About' element={<About/>} />
       </Routes>      

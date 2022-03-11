@@ -36,7 +36,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: 'teal' }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to='/' onClick={handleClick} click={click}>
+            <NavLogo to='/ReactWebsiteRepo' onClick={handleClick} click={click}>
               <NavIcon />
               AHBCODE
             </NavLogo>
@@ -45,7 +45,7 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
+                <NavLinks to='/ReactWebsiteRepo' onClick={closeMobileMenu}>
                   Home
                 </NavLinks>
               </NavItem>
