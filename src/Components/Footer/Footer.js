@@ -2,8 +2,8 @@ import React from 'react'
 import {FaTwitter,FaLinkedin} from'react-icons/fa';
 import {BsGithub} from'react-icons/bs';
 
-
-
+/*<FooterLink to='/Contact'>Contact</FooterLink>
+*/
 import {FooterContainter,
     FooterSubHeading,
     FooterLink,FooterLinkTitle,
@@ -32,7 +32,6 @@ function Footer() {
                 <FooterLinkItems>
                     <FooterLinkTitle>About</FooterLinkTitle>
                     <FooterLink to='/About'> About me </FooterLink>
-                    <FooterLink to='/Contact'>Contact</FooterLink>
                     <FooterA href={require("../Resume/Anthony-Hackney_Resume_VGedits(4).pdf")} download='AnthonyHackneyResume'>Resume</FooterA>
 
                 </FooterLinkItems>
