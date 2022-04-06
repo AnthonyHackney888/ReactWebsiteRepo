@@ -7,7 +7,7 @@ Created the website using the pre built react website as a foundation.
 
 [VSCode](https://code.visualstudio.com/) - to use as the IDE for the website. 
 
-#Language used
+# Language used
 
 [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Javascript was used as the main language as well as its many different frameworks
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The HTML portion of the website is going unused to make way for the React portion of the website
