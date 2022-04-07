@@ -22,3 +22,8 @@ Created the website using the pre built react website as a foundation.
 # Hosting the website
 * [GitHub Pages](https://docs.github.com) - I used Github Pages as a way to host the site.
 
+## Authors
+* **Anthony Hackney** ahbcode@gmail.com
+
+
+
